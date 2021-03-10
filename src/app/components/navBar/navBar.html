@@ -1,0 +1,9 @@
+<div id="navBar" class="sidenav">
+  <button class="home-button"></button>
+  <button class="closebtn" v-on:click="closeNavBar">&times;</button>
+  <ul>
+        <li v-for="(element, index) in navigationElements">
+            <a href=element.url> <img class="app-menu-item" :src="appMenuIcon"> <span class="app-menu-item-text"> {{ element.city }} </span></a>
+        </li>
+  </ul>
+</div>

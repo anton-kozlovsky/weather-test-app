@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="forecast-container" v-for="element of forecasts">
+        <div class="left">
+            <div class="top">{{ element.date }}</div>
+            <div class="bottom">{{ element.temperature }}</div>
+        </div>
+        <div class="right">
+            <div class="top"><img :src=element.weatherIcon></div>
+            <div class="bottom">{{ element.weatherType }}</div>
+        </div>
+    </div>
+</div>

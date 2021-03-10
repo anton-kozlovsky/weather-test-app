@@ -1,0 +1,42 @@
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left {
+    display: block;
+}
+
+.left .bottom {
+    margin-top: 5px;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.left .top {
+    margin-top: 5px;
+    vertical-align: middle;
+    font-size: 10pt;
+}
+
+
+.right {
+    display: block;
+    text-align: center;
+}
+
+.right .top {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.right .bottom {
+    margin-top: 5px;
+    vertical-align: middle;
+    font-size: 10pt;
+}
